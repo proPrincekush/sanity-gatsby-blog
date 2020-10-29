@@ -1,7 +1,7 @@
 export default {
   name: 'gallery',
   type: 'document',
-  title: 'Gallery',
+  title: 'GalleryCategory',
   fields: [
     {
       name: 'name',
