@@ -4,8 +4,8 @@ export default {
   title: 'Gallery',
   fields: [
     {
-      name: 'title',
+      name: 'name',
       type: 'string',
-      title: 'Title'
+      title: 'Name'
     }]
 }
