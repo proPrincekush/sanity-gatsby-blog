@@ -7,6 +7,13 @@ export default {
       name: 'title',
       type: 'string',
       title: 'Title'
+    },{
+      name:"galleryCategory",
+      type:"reference",
+      title:"galleryCategory",
+      to:[{
+        type:"galleryCategory"
+      }]
     },
     {
       name: 'image',
