@@ -8,11 +8,14 @@ export default {
       type: 'string',
       title: 'Title'
     },{
-      name:"galleryCategory",
-      type:"reference",
-      title:"galleryCategory",
-      to:[{
-        type:"galleryCategory"
+      name: 'galleryCategory',
+      title:"Category",
+      type:"array",
+      of:[{
+        type:"reference",
+        to:[{
+          type:"galleryCategory"
+        }]
       }]
     },
     {
