@@ -10,6 +10,7 @@ import category from './documents/category'
 import post from './documents/post'
 import siteSettings from './documents/siteSettings'
 import gallery from "./documents/gallery"
+import homepagePortfolio from "./documents/homepagePortfolio"
 import galleryCategory from "./documents/galleyCategory"
 // Object types
 import bodyPortableText from './objects/bodyPortableText'
@@ -37,7 +38,8 @@ export default createSchema({
     bioPortableText,
     excerptPortableText,
     gallery,
-    galleryCategory
+    galleryCategory,
+    homepagePortfolio
 
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
