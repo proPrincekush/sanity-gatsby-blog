@@ -10,7 +10,7 @@ import category from './documents/category'
 import post from './documents/post'
 import siteSettings from './documents/siteSettings'
 import gallery from "./documents/gallery"
-import homepagePortfolio from "./documents/homepagePortfolio"
+import homepagePortfolio from "./documents/homepagePortfolio.js"
 import galleryCategory from "./documents/galleyCategory"
 // Object types
 import bodyPortableText from './objects/bodyPortableText'
